@@ -57,3 +57,10 @@ Warning : The requirement.txt command do "sudo -s". But, you may need to do "sud
 3. The most important... Wait and watch the magic happening ! 
 
 **********************
+Usefull commande to find the good usb port : 
+
+- dmesg | grep tty
+
+- ls /sys/class/tty/ttyUSB* 
+
+- ls /sys/class/tty
