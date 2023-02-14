@@ -1,0 +1,11 @@
+# pull docker-compose from github
+sudo -s
+cd /
+rm -d -R dockercomposegit
+mkdir dockercomposegit
+cd /dockercomposegit
+git clone https://github.com/Bronom/Octoprint-Docker.git
+cd ./Octoprint-Docker
+chmod +x install_docker.sh
+
+./install_docker.sh
