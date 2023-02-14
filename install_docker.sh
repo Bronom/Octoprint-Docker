@@ -21,4 +21,4 @@ cd ./Compose/octoprint
 docker-compose up -d
 
 # Remove Git Installation Files
-rm -d -R /dockercomposegit
+#rm -d -R /dockercomposegit
