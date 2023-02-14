@@ -64,3 +64,10 @@ Usefull commande to find the good usb port :
 - ls /sys/class/tty/ttyUSB* 
 
 - ls /sys/class/tty
+
+*********************
+Command to edit docker-compose file
+
+nano /dockercomposegit/Compose/octoprint/docker-compose.yml
+
+CTRL + C To quit and save
