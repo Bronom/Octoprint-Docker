@@ -49,6 +49,7 @@ For the others script, check comments inside the file.
 Instruction :
 
 Warning : The requirement.txt command do "sudo -s". But, you may need to do "sudo -s" manualy before executing the command / script.
+Warning 2 : You could have to change the ttyUSB0 port for a other one. Take a Look at the end of the readme for command to list your usb port.
 
 1. Copy & Paste command in Requirement.txt into your terminal to setup the folder and clone the repo. (Inside the requirement.txt, you can remove the # before the command you want to execute the script automaticly)
 
